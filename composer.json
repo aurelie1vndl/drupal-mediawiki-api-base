@@ -22,12 +22,18 @@
             "@phpunit"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aurelie1vndl/drupal-mediawiki-oauthclient-php"
+        }
+    ],
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "~6.3||~7.0",
-        "guzzlehttp/promises": "~1.0",
-        "psr/log": "~1.0",
-        "mediawiki/oauthclient": "^1.1"
+        "guzzlehttp/promises": "~2.0",
+        "psr/log": "~3.0",
+        "mediawiki/oauthclient": "dev-composer-hotfix"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
