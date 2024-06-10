@@ -25,7 +25,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/aurelie1vndl/drupal-mediawiki-oauthclient-php"
+            "url": "https://github.com/aurelie1vndl/drupal-mediawiki-oauthclient-php.git"
         }
     ],
     "require": {
@@ -33,7 +33,7 @@
         "guzzlehttp/guzzle": "~6.3||~7.0",
         "guzzlehttp/promises": "~2.0",
         "psr/log": "~3.0",
-        "aurelie1vndl/drupal-mediawiki-oauthclient-php": "dev-master"
+        "aurelie1vndl/drupal-mediawiki-oauthclient": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
