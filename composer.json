@@ -33,7 +33,7 @@
         "guzzlehttp/guzzle": "~6.3||~7.0",
         "guzzlehttp/promises": "~2.0",
         "psr/log": "~3.0",
-        "aurelie1vndl/drupal-mediawiki-oauthclient-php": "dev-main"
+        "aurelie1vndl/drupal-mediawiki-oauthclient-php": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
