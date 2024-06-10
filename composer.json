@@ -1,5 +1,5 @@
 {
-    "name": "addwiki/mediawiki-api-base",
+    "name": "aurelie1vndl/drupal-mediawiki-api-base",
     "type": "library",
     "description": "Simple MediaWiki API library",
     "keywords": ["Mediawiki", "API"],
@@ -33,7 +33,7 @@
         "guzzlehttp/guzzle": "~6.3||~7.0",
         "guzzlehttp/promises": "~2.0",
         "psr/log": "~3.0",
-        "mediawiki/oauthclient": "dev-composer-hotfix"
+        "aurelie1vndl/drupal-mediawiki-oauthclient-php": "dev-composer-hotfix"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
@@ -53,11 +53,6 @@
         "psr-4": {
             "Addwiki\\Mediawiki\\Api\\Tests\\Unit\\": "tests/unit/",
             "Addwiki\\Mediawiki\\Api\\Tests\\Integration\\": "tests/integration/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "3.1-dev"
         }
     },
     "minimum-stability": "dev",
