@@ -1,5 +1,5 @@
 {
-    "name": "aurelie1vndl/drupal-mediawiki-api-base",
+    "name": "addwiki/mediawiki-api-base",
     "type": "library",
     "description": "Simple MediaWiki API library",
     "keywords": ["Mediawiki", "API"],
@@ -22,18 +22,18 @@
             "@phpunit"
         ]
     },
-    "repositories": [
-        {
+    "repositories": {
+        "mediawiki/oauthclient": {
             "type": "vcs",
             "url": "https://github.com/aurelie1vndl/drupal-mediawiki-oauthclient-php.git"
         }
-    ],
+    },
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "~6.3||~7.0",
-        "guzzlehttp/promises": "~2.0",
-        "psr/log": "~3.0",
-        "aurelie1vndl/drupal-mediawiki-oauthclient": "*"
+        "guzzlehttp/promises": "~2.0||~1.0",
+        "psr/log": "~3.0||~2.0",
+        "mediawiki/oauthclient": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~9",
